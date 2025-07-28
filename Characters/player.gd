@@ -4,7 +4,6 @@ extends CharacterBody2D
 
 
 func _ready() -> void:
-	print("Player: ", self.global_position)
 	NavigationManager.player_spawned.connect(_on_spawn)
 
 
